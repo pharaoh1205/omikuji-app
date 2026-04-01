@@ -4,6 +4,7 @@ function getRandomImage(){
     return imagePath
 }
 
+// keeijoieje
 function playOmikuji(){
   const timer = setInterval(function(){
       document.querySelector("#js-result").setAttribute("src", getRandomImage());
